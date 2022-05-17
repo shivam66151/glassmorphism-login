@@ -51,6 +51,40 @@ border-radius: 10px;
 color: #ffffff;
 text-transform: uppercase;
 letter-spacing: 0.4rem;
+@media only screen and (max-width: 320px) {
+  width: 80vw;
+  height: 90vh;
+  hr {
+    margin
+  }
+  h4 {
+      font-size: small;
+    }
+  }
+  @media only screen and (min-width: 360px) {
+    width: 80vw;
+    height: 90vh;
+    h4 {
+      font-size: small;
+    }
+  }
+  @media only screen and (min-width: 411px) {
+    width: 80vw;
+    height: 90vh;
+  }
+  @media only screen and (min-width: 768px) {
+    width: 80vw;
+    height: 80vh;
+  }
+  @media only screen and (min-width: 1024px) {
+    width: 70vw;
+    height: 50vh;
+  }
+  @media only screen and (min-width: 1280px) {
+    width: 30vw;
+    height: 80vh;
+  }
+}
 `;
 
 const WelcomeText = styled.h2`
@@ -59,17 +93,15 @@ margin: 3rem 0 2rem 0;
 `;
 
 const InputContainer = styled.div`
-
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-align-items: center;
-height: 20%;
-weight: 100%
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 20%;
+  width: 100%;
 `;
 
 const ButtonContainer = styled.div`
-
  margin: 1rem 0 2rem 0;
  width: 100%;
  display: flex;
